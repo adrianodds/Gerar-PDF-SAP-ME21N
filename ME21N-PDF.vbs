@@ -102,7 +102,7 @@ Sub listar_arquivos_e_pastas()
     Set fso = CreateObject("Scripting.FileSystemObject")
     
     'CHAMANDO A SUB QUE IRÁ VERIFICAR SE SERÁ NECESSÁRIO MODIFICAR O USUÁRIO
-    'obs: essa ação foi necessária pois na empresa em que trabalho alguns computadores tem usuário tem uma informação a mais.
+    'obs: essa ação foi necessária pois na empresa em que trabalho alguns computadores tem usuários com uma informação adicional.
     Call user
     
     If link = "NORDESTAO" Then
